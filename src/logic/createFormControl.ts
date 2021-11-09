@@ -1014,7 +1014,6 @@ export function createFormControl<
         } else {
           onInvalid && (await onInvalid(_formState.errors, e));
           console.log('IN REACT HOOK FORM')
-          console.log(get(_formState.errors, key))
           console.log(_names.mount)
           _options.shouldFocusError &&
             focusFieldBy(
